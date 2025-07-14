@@ -15,7 +15,7 @@ local enabledLabel = Instance.new("TextLabel")
 
 -- ScreenGui setup
 ohiomoneyfreelua.Name = "ohio-money-free.lua"
-ohiomoneyfreelua.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ohiomoneyfreelua.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 ohiomoneyfreelua.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 -- Main frame
